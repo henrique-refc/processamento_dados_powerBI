@@ -5,15 +5,26 @@ Descrição do desafio módulo 3 – Processamento de Dados Simplificado com Pow
 
 1. Criação de uma instância na Azure para MySQL
 
-  -Entrar no site : https://azure.microsoft.com/pt-br/
-  
-  
-
-
-
-
-
-
+  -Entrar no site : https://azure.microsoft.com/pt-br/ 
+  - Vá até a barra de pesquisa e digite 'MySQL'. Em seguida, clique em 'Servidores de Banco de Dados' onde irá encontrar " Servidores do Banco de Dados do Azure para MySQL";
+  - Clicar em criar e assim será exibida a página de Banco de Dados do Azure para MySQL;
+  - Escolher o servidor flexivel e clicar em criar;
+  - Escolher a assinatura que estou utilizando " Azure subscription 1"
+  - O grupo de recursos usado foi o Teste
+  - Nome do projeto desafio-projeto2-dio
+  - Região East Us
+  - Versão My SQL 8
+  - tipo de carga de trabalho: Para projetos de desenvolvimento ou hobby
+  - Criar o nome de usuário a senha e a confirmação da senha
+  - Clicar em avançar : rede >
+  - Método de conectividade : Acesso público (endereços IP permitidos) e ponto de extremidade privado
+  - Regras de Firewall: Permitir o acesso público de qualquer serviço do Azure de dentro do Azure para esse servidor
+  - Clicar em avançar : segurança >
+  - Criptografia de dados : Não fazer alterações nesta guia
+  - Clicar em avançar : rótulos > Não fazer alterações nesta guia
+  - Clicar em avançar : revisar + criar >
+  - Clicar em criar
+  - Vai começar a ser criada a instância de banco de dados com MySQL
 
 
 
@@ -21,9 +32,11 @@ Descrição do desafio módulo 3 – Processamento de Dados Simplificado com Pow
 
 2. Criar o Banco de dados com base disponível no github
 
-3. Integração do Power BI com MySQL no Azure
+   
 
-4. Verificar problemas na base a fim de realizar a transformação dos dados
+4. Integração do Power BI com MySQL no Azure
+
+5. Verificar problemas na base a fim de realizar a transformação dos dados
 
 Diretrizes para transformação dos dados
 
